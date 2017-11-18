@@ -9,11 +9,11 @@ Explore
  Sign out
  Watch 2
   Star 2
- Fork 2 itseasy21/auto-ffmpeg
+ Fork 2 ShekharSumanPro/FFmpeg-Installation
  Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-Branch: master Find file Copy pathauto-ffmpeg/install-ffmpeg.sh
+Branch: master Find file Copy pathFFmpeg-Installation/install-ffmpeg.sh
 f7a7cb6  on Oct 15, 2014
-@itseasy21 itseasy21 fix for centos 6.5
+@ShekharSumanPro ShekharSumanPro fix for centos 6.5
 1 contributor
 RawBlameHistory     
 107 lines (90 sloc)  3.18 KB
@@ -22,7 +22,7 @@ RawBlameHistory
 #This script will install and configure the following modules for you
 # ffmpeg 0.7.11, mencoder, mplayer, mp4box2 and more libs
 
-### Made by Shubham Mathur (itseasy21)
+### Made by Shekhar suman (ShekharSumanPro)
 
 #-Colors :D
 RED='\033[01;31m'
@@ -33,9 +33,9 @@ RESET='\033[0m'
 clear
 
 echo -e "$GREEN----------------------------------------$RESET"
-echo -e "     $RED W3TooLS FFMpeg Installer $RESET"
+echo -e "     $RED ShekharSumanPro FFMpeg Installer $RESET"
 echo -e "              Version 0.1.1            "
-echo -e "     http://www.w3tool.blogspot.in/  "
+echo -e "     http://www.mastbhojpuri.com/  "
 echo -e "$GREEN----------------------------------------$RESET"
 
 #-Yum Check
@@ -118,10 +118,10 @@ echo -e "
     mencoder:$GREEN /usr/bin/mencoder $RESET
     MP4Box:$GREEN /usr/bin/MP4Box $RESET"
 echo -e ""
-echo -e "If ffmpeg failed to install or you faced any bugs feel free to post them with install log at $GREEN https://github.com/itseasy21/ $RESET"
+echo -e "If ffmpeg failed to install or you faced any bugs feel free to post them with install log at $GREEN https://github.com/ShekharSumanPro $RESET"
 echo -e ""
 echo -e "Thanks for using our FFMpeg Installer for CentOS"
-echo -e "For more stay tuned at our blog : $GREEN http://www.w3tool.blogspot.in/ $RESET"
+echo -e "For more stay tuned at our blog : $GREEN http://www.mastbhojpuri.com/ $RESET"
 echo -e "$GREEN---------------------------------------------------$RESET"
 © 2017 GitHub, Inc.
 Terms
